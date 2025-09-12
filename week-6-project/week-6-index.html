@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Week 6 Weather Projectk</title>
+    <link href="styling/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <form id="input">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            class="input-bar"
+            id="city-searched"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 id="heading">Paris</h1>
+            <p>
+              <span id="display-day-and-time">Tuesday 10:10</span>, moderate
+              rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="temperature">
+            <span class="sunshine">☀️</span><span id="numeric-temp"> 14</span
+            ><span class="celsius-sign">°C</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Aksinia</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </section>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
